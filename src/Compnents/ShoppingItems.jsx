@@ -2,12 +2,14 @@ import React from "react";
 import list from "../list";
 import Card from "./Card";
 
-const shop = () => {
+const shop = ({ handleClick }) => {
   return (
     <div>
       <section>
         {list.map((item) => {
-          <Card item={item} key={item.id}></Card>;
+          return (
+            <Card item={item} key={item.id} handleClick={handleClick}></Card>
+          );
         })}
       </section>
     </div>

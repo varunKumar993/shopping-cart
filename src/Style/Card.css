@@ -1,0 +1,12 @@
+section {
+  width: 80%;
+  margin: auto;
+  margin-top: 5%;
+  display: grid;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+}
+div:hover {
+  box-shadow: 0 10px 10px 10px black;
+}
